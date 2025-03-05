@@ -11,7 +11,9 @@ using namespace std;
 
 
 // } Driver Code Ends
-
+//Step 1: Extract last digit using remainder like 89%10=9 last digit extraction
+//Step 2: Divide the number by 10 to remove the last digit
+//Step 3: If digit is not 0 and 
 class Solution{
     public:
     int evenlyDivides(int n){
